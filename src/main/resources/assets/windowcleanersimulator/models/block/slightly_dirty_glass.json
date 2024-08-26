@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "windowcleanersimulator:block/slightly_dirty_glass"
+  }
+}

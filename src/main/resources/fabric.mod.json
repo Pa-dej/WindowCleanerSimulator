@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "windowcleanersimulator",
+  "version": "0.1",
+  "name": "WindowCleanerSimulator",
+  "description": "Мойте окна, кайфуйте",
+  "authors": ["Padej_"],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/windowcleanersimulator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.Padej_.windowcleanersimulator.client.WindowCleanerSimulatorClient"
+    ],
+    "main": [
+      "me.Padej_.windowcleanersimulator.WindowCleanerSimulator"
+    ]
+  },
+  "mixins": [
+    "windowcleanersimulator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  }
+}

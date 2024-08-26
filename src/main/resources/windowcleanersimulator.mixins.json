@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.Padej_.windowcleanersimulator.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "MixinCreativeInventory",
+    "MixinInventory"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
